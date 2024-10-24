@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div>
+    <header>
       <div class="logo">
-        <img src="assets/images/logo.png" width="200" />
+        <img
+          src="assets/images/DALL·E 2024-10-24 13.41.00 - Create a modern version of the Wikipedia logo by retaining its core structure and iconic 'W' but modernizing th.webp"
+          alt="Logo do site"
+          class="header-image"
+        />
       </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-      <div class="sidebar">
+    <main class="content">
+      <aside class="sidebar">
         <h1>Jogos da Atualidade</h1>
         <h3><u>Call of Duty</u></h3>
         <ul>
-          <li><a href="./index.html">Grand Theft Auto VI GTA 6</a></li>
+          <li>
+            <a href="./Grand Theft Auto VI.html">Grand Theft Auto VI GTA 6</a>
+          </li>
           <li><a href="./Call of Duty.html">Call of Duty</a></li>
+          <li><a href="./God of War Ragnarok.html">God of War: Ragnarok</a></li>
+          <li><a href="./Minecraft.html">Minecraft</a></li>
         </ul>
-      </div>
+      </aside>
 
-      <div class="main">
+      <section class="main">
         <h1>Call of Duty</h1>
         <h2 id="Historia da franquia">1. História da Franquia</h2>
         <p>
@@ -131,12 +139,19 @@
           lucra tanto com vendas diretas quanto com microtransações dentro dos
           modos de jogo, como Warzone.
         </p>
-      </div>
+        <h1 id="trailer">Trailer do Jogo</h1>
+        <video
+          src="./assets/Video/Callofduty.mp4"
+          controls
+          width="300px"
+          alt="Trailer do jogo Call of Duty"
+        ></video>
+      </section>
 
-      <div class="anchors">
-        <h2>Topicos do Artigo</h2>
+      <aside class="anchors">
+        <h2>Tópicos do Artigo</h2>
         <ul>
-          <li><a href="#Historia da franquia">1. Historia da franquia</a></li>
+          <li><a href="#Historia da franquia">1. História da franquia</a></li>
           <li><a href="#mais sucessos">Os jogos de maior sucesso</a></li>
           <li><a href="#Modos de Jogo">2. Modos de Jogo</a></li>
           <li>
@@ -149,11 +164,55 @@
               >4. Popularidade e Impacto Cultural</a
             >
           </li>
-          <li><a href="#"></a></li>
+          <li><a href="#trailer">Trailer do jogo</a></li>
         </ul>
-      </div>
-    </div>
+      </aside>
+    </main>
 
-    <div class="footer"></div>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h2>Sobre Nós</h2>
+          <p>
+            Somos uma enciclopédia colaborativa que visa fornecer informações
+            precisas e atualizadas sobre uma variedade de tópicos. Nossos
+            artigos são escritos e editados por voluntários ao redor do mundo.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h2>Links Úteis</h2>
+          <ul>
+            <li><a href="#Historia da franquia">1. História da franquia</a></li>
+            <li><a href="#mais sucessos">Os jogos de maior sucesso</a></li>
+            <li><a href="#Modos de Jogo">2. Modos de Jogo</a></li>
+            <li>
+              <a href="#Inovações e Impacto Tecnológico"
+                >3. Inovações e Impacto Tecnológico</a
+              >
+            </li>
+            <li>
+              <a href="#Popularidade e Impacto Cultural"
+                >4. Popularidade e Impacto Cultural</a
+              >
+            </li>
+            <li><a href="#trailer">Trailer do jogo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h2>Redes Sociais</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Sua Wikipédia Moderna. Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>

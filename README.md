@@ -1,19 +1,22 @@
-# Módulo 3 - Trilha HTML
+# Mini Wikipédia Moderno
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+## Descrição
 
-## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+Este projeto é uma versão moderna de uma página da Wikipédia, focada em um artigo pequeno sobre jogos da atualidade. O objetivo é aprimorar minhas habilidades em HTML e CSS.
 
-## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+## Tecnologias Usadas
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+- HTML
+- CSS
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+## Como Usar
 
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
+Para visualizar este projeto, basta baixar os arquivos do repositório e abrir o arquivo HTML em um navegador. Não há necessidade de instalação, pois é um simples arquivo HTML.
 
+## Licença
 
+Este projeto não possui uma licença específica.
+
+## Contribuição
+
+Não são aceitas contribuições, pois este projeto é parte de um desafio proposto pela DIO.me.

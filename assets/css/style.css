@@ -29,10 +29,56 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.footer {
+/* .footer {
   min-height: 100px;
   border-top: solid 1px #cdcdcd;
+} */
+footer {
+  background-color: #f9f9fb;
+  padding: 20px;
+  border-top: solid 1px #cdcdcd;
 }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 0.9em;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: blue;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
 .anchors {
   border-left: solid 1px #cdcdcd;
   padding-left: 15px;
@@ -42,4 +88,19 @@ a {
 }
 figure {
   text-align: center;
+}
+header {
+  position: relative; /* Necessário para posicionar a imagem corretamente */
+  width: 100%; /* Para que o header preencha toda a largura */
+  height: 200px; /* Ajuste a altura conforme necessário */
+  overflow: hidden; /* Para ocultar qualquer parte da imagem que exceda o header */
+}
+
+.header-image {
+  position: absolute; /* Posiciona a imagem em relação ao header */
+  top: 0;
+  left: 0;
+  width: 100%; /* A imagem preenche a largura do header */
+  height: 100%; /* A imagem preenche a altura do header */
+  object-fit: cover; /* A imagem será cortada para se ajustar ao header */
 }
